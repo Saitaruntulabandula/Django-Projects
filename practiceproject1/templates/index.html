@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Task2</h1>
+
+<form action='check'>
+  <label>Login Form:</label><br><br><br><br>
+  <label for="uname"><b>Username</b></label>
+  <input type='text' name='Username'><br><br><br>
+  <label for="uname"><b>Password</b></label>
+  <input type='text' name='Password'><br><br><br>
+  <input type="submit" value="Login"><br><br><br>
+</form> 
+
+<h1>Login Status</h1>
+
+{% block content %}
+Login status is {{ result }}
+{% endblock %}
+
+</body>
+</html>
